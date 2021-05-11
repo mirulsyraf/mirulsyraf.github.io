@@ -1,0 +1,354 @@
+
+
+
+body {
+  margin:0px;
+background-color: #5499C7;
+}
+
+
+.container{
+  display:grid;
+  grid-template-columns: 1fr;
+  background-color:#2980B9 ;
+
+
+}
+
+.container :hover{
+  background-color: #244242;
+
+}
+
+
+
+
+
+.nav-wrapper {
+              display: flex;
+              justify-content:space-between;
+              padding:36px;
+}
+
+
+.left-side{
+  display:flex;
+}
+
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9;
+  text-transform: uppercase;
+
+}
+
+.nav-link-wrapper{
+  height: 22px;
+  border-bottom:none;
+}
+
+.nav-link-wrapper a{
+  color:#feb236;;
+  text-decoration:none;
+  font-family:fantasy;
+  transition: color 0.5s;
+}
+
+
+.nav-link-wrapper :hover{
+  border-bottom:1px solid black;
+
+}
+
+
+.nav-link-wrapper :hover{
+  color: #4285F4;
+  font-family:sans-serif;
+
+}
+
+.right-side{
+  font-size: 25px;
+  font-style: italic;
+  color:#feb236;
+  font-family: cursive;
+  animation:shake 0.5s;
+
+
+  animation-iteration-count: infinite;
+
+}
+
+.right-side:hover{
+  color:#ff7b25;
+  font-family: fantasy;
+}
+
+/*this is styles */
+
+
+.portfolio-items-wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  font-size:50px;
+  font-family:cursive;
+
+}
+
+
+.portfolio-items-wrapper  :hover{
+  animation:shake 0.5s;
+
+
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes shake {
+    0%{transform:translate(1px,1px)rotate(0deg);
+    10%{transform: translate(-1px.-2px)rotate(-1deg);}
+    20%{transform: translate(-3px,0px)rotate(1deg);}
+    30%{transform: translate(3px,2px)rotate(0deg);}
+    40%{transform: translate(1px,-1px)rotate(1deg);}
+    50%{transform: translate(-1px,2px)rotate(-1deg);}
+    60%{transform: translate(-3px,1px)rotate(0deg);}
+    70%{transform: translate(3px,1px)rotate(-1deg);}
+    80%{transform: translate(-1px,-1px)rotate(1deg);}
+    90%{transform: translate(1px,2px)rotate(0deg);}
+    100%{transform: translate(1px,-2px)rotate(-1deg);}
+    }
+
+
+
+
+
+
+
+
+
+
+}
+.subtitle1{
+ color:  #ffcc5c;
+}
+.subtitle1:hover{
+ color:  #ffcc5c;
+ font-family:sans-serif;
+}
+
+
+.subtitle2{
+  color: lightgreen;
+  font-family: fantasy;
+
+}
+.subtitle2:hover{
+  color: #00A1F1;
+  font-family:sans-serif;
+
+}
+
+.subtitle3{
+color: #3F729B;
+font-family: fantasy;
+}
+.subtitle3:hover{
+color: #EA4335;
+font-family: sans-serif;
+}
+
+.subtitle4{
+color:#FBBC05;
+}
+.subtitle4:hover{
+color: #3F729B;
+font-family: sans-serif;
+}
+
+.subtitle5{
+color: #618685;
+font-family: cursive;
+}
+.subtitle5:hover{
+color: #3F729B;
+font-family: sans-serif;
+}
+
+.subtitle6{
+color: #ffef96;
+font-family:fantasy;
+}
+.subtitle6:hover{
+color: #3F729B;
+font-family: sans-serif;
+}
+
+
+
+
+
+.about{
+
+  padding:50px;
+
+
+
+}
+
+.about-inside a{
+  font-family: fantasy;
+  border-bottom:none;
+  text-decoration: none;
+  font-size:20px;
+  transition: color 0.5s;
+  color:	#DAA520;
+  text-transform: uppercase;
+  padding:10px;
+
+
+}
+
+.about-inside:hover a{
+  color:  #618685;
+
+
+}
+.about p{
+  color:#ffff99;
+  font-family:fantasy;
+  font-size: 35px;
+  animation:shake 0.5s;
+  text-decoration: none;
+  font-style: italic;
+
+
+  animation-iteration-count: infinite;
+
+}
+
+.about :hover p{
+  color:#618685;
+}
+
+
+.about h1{
+  color:#666600;
+}
+
+.about :hover p{
+  color: #618685;
+  font-family: serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.study{
+
+}
+
+
+
+
+
+
+.about-info{
+  color:white;
+  font-family: fantasy;
+  text-align:center;
+}
+
+
+.cv{
+  color: #2E4053  ;
+  text-align: center;
+  font-size: 25px;
+  font-family:cursive;
+
+
+}
+
+.about-info :hover{
+
+  font-style: italic;
+}
+
+
+.cv :hover{
+  animation:shake 1.2s;
+  animation-iteration-count: infinite;
+
+  font-family:serif;
+}
+
+
+
+
+
+.studyhere{
+
+
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-family: cursive;
+  color:lightgreen;
+}
+
+.studyhere2{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-family: cursive;
+  color:orange;
+}
+
+
+
+
+.story{
+  font-family: fantasy;
+  font-size: 20px;
+  color: white;
+  text-align:center;
+}
+
+.mySlides {display:none;}
+
+
+.work{
+
+margin-left: 35%;
+font-style: bold;
+font-family:fantasy;
+color: #91C6E9 ;
+}
+
+
+
+.work :hover{
+
+  color: lightgreen;
+  font-style: italic;
+  animation:shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+.contacthere{
+  position: absolute;
+}
